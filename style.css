@@ -1,0 +1,113 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    width: 405px;
+    height: 720px;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    user-select: none;
+}
+.container-night {
+    background-color: #283637;
+    color: #ffffff;
+}
+.panel {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-burger {
+    padding: 15px;
+    margin-left: 7px;
+    border-radius: 50%;
+    width: 22px;
+    text-align: center;
+}
+.button-burger:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+    color: #000000;
+}
+#title {
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.title {
+    background-color: #49a397;
+}
+.title-night {
+    background-color: #ffffff;
+    color: #49a397;
+}
+.button-light {
+    padding: 15px;
+    margin-right: 7px;
+    border-radius: 50%;
+    width: 18px;
+}
+.button-light:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+    color: #000000;
+}
+#history {
+    height: 125px;
+    padding: 0px 20px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    overflow: hidden;
+}
+#value {
+    height: 100px;
+    text-align: right;
+    font-size: 75px;    
+    line-height: 115px;
+    padding: 0px 20px;
+}
+.buttons {
+    height: 425px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    justify-content: space-evenly;    
+    align-content: space-evenly;
+}
+.button {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+}
+.button:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+    color: #000000;
+}
+.button-operator {
+    color: #49a397;
+    background-color: #fff;
+}
+.button-operator:hover {
+    color: #49a397;
+}
+.button-clear {
+    font-variant: small-caps;
+    background-color: #fff;
+}
+.button-clear-night {
+    background-color: #6b7f7d;
+}
+.button-backspace {
+    font-variant: small-caps;
+    background-color: #fff;
+}
+.button-backspace-night {
+    background-color: #6b7f7d;
+}
